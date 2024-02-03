@@ -7,7 +7,7 @@ I'm using a wine dataset that contains chemical parameters value & labeled value
 <br>
 <br>
 I've checked the relationship between the chemical parameters & wine quality in data analysis. Also used plots & graphs to get a better idea about the data set through visualization.
-<be>
+<br>
 <br>
 **Work Flow**
 <br>
