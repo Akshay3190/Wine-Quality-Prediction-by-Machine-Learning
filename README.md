@@ -3,13 +3,15 @@
 Analyzed the 1599 samples of wine dataset for the quality  of wine. I've used the Supervised machine learning model Random Forest Classifier model to check the wine quality.
 <br>
 <br>
-We are using a wine dataset that contains chemical parameters value & labeled values. Here the label means quality of the wine. We’ll train our ML model with the labeled dataset. This type of Machine learning is known as Supervised learning. Unlabeled data set fall under unsupervised learning.
+I'm using a wine dataset that contains chemical parameters value & labeled values. Here the label means the quality of the wine. We’ll train our ML model with the labeled dataset. This type of Machine learning is known as Supervised learning. Unlabeled data set fall under unsupervised learning.
 <br>
 <br>
-We’ll check the relationship between the chemical parameters & wine quality in data analysis. We also use plots & graphs to get a better idea about the data set through visualization.
+I've checked the relationship between the chemical parameters & wine quality in data analysis. Also used plots & graphs to get a better idea about the data set through visualization.
 <be>
 <br>
 **Work Flow**
+<br>
+<br>
 <img width="960" alt="work flow" src="https://github.com/Akshay3190/Wine-Quality-Prediction-by-Machine-Learning/blob/main/Workflow_1706942192275.png">
 <br>
 <br>
