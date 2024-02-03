@@ -48,19 +48,27 @@ There are 2 types of correlation. Positive & Negative.
 <br>
 # Parameters of Heatmap-
 <br>
-_Cbar_- colour bar.
 <br>
-_Fmt_- format.The fmt argument determines the format of the annotations.
+**Cbar**- colour bar.
 <br>
-_Annotations_ are an important way to add additional information to a heatmap, such as the exact values of each data point. Using the annot and fmt arguments in the heatmap () function, we can add annotations to a heatmap. 
 <br>
-_Correaltion_ function finds the correlation values in entire columns.
+**Fmt**- format. The fmt argument determines the format of the annotations.
 <br>
-_Annot_-Annot values are nothing but the chemical parameters mentioned in the dataset according to the columns.
 <br>
-_annot_kws_= is used to change the text properties, typically the font size. But you also could change the font itself, or the alignment if you'd used multiline text. You can even rotate the text by using the function ‘rotation’.
+**Annotations** are an important way to add additional information to a heatmap, such as the exact values of each data point. Using the annot and fmt arguments in the heatmap () function, we can add annotations to a heatmap. 
 <br>
-_Cmap_= You can customize the colors in your heatmap with the cmap parameter of the heatmap() function in seaborn. It is also possible to set maximum and minimum values for the colour bar on a seaborn heatmap by giving values to vmax and vmin parameters in the function.
+<br>
+**Correlation** function finds the correlation values in entire columns.
+<br>
+<br>
+**Annot**-Annot values are nothing but the chemical parameters mentioned in the dataset according to the columns.
+<br>
+<br>
+**annot_kws**= is used to change the text properties, typically the font size. But you also could change the font itself, or the alignment if you'd used multiline text. You can even rotate the text by using the function ‘rotation’.
+<br>
+<br>
+**Cmap**= You can customize the colors in your heatmap with the cmap parameter of the heatmap() function in seaborn. It is also possible to set maximum and minimum values for the colour bar on a seaborn heatmap by giving values to vmax and vmin parameters in the function.
+<br>
 <br>
 The colour bar in the heatmap represents the relation between the parameters. Dark the colour represents the parameters that are directly proportionate & light colour represents the parameters that are inversely proportionate.
 <br>
@@ -75,9 +83,10 @@ The Label Binarizer works by converting each label into a binary vector represen
 Here we’ve binarize the value into 2 categories. Like good & bad according to the values mentioned in the quality column. If the value is above 7 then wine quality  is good & if the value is below 7 then wine quality is bad. So instead of having 6 different values as labeled values of wine quality, we will have 2 values i.e. good & bad. The same we have mentioned in terms of numeric values means 0 will be bad & 1 will be good. To replace these values we need to use Python function “lambda”.
 <br>
 <br>
-_test_size=0.2_ means 20% of data will be test data.
+**test_size**=0.2_ means 20% of data will be test data.
 <br>
-_random_state_= controls randomness of the sample. The model will always produce the same results if it has a definite value of random state and has been given the same hyperparameters and training data. If you don't specify the random_state in the code, then every time you run(execute) your code a new random value is generated and the train and test datasets would have different values each time. However, if a fixed value is assigned like random_state = 0 or 1 or 42 or any other integer then no matter how many times you execute your code the result would be the same i.e., the same values in train and test datasets.
+<br>
+**random_state**= controls randomness of the sample. The model will always produce the same results if it has a definite value of random state and has been given the same hyperparameters and training data. If you don't specify the random_state in the code, then every time you run(execute) your code a new random value is generated and the train and test datasets would have different values each time. However, if a fixed value is assigned like random_state = 0 or 1 or 42 or any other integer then no matter how many times you execute your code the result would be the same i.e., the same values in train and test datasets.
 <br>
 <br>
 **Random Forest Classifier Model-**
@@ -90,16 +99,16 @@ Ensemble learning is a machine learning technique that enhances accuracy and res
 <img width="960" alt="Random Forest Classifier Model" src="https://github.com/Akshay3190/Wine-Quality-Prediction-by-Machine-Learning/blob/main/Random%20Forest%20Classifier%20model.png">
 <br>
 <br>
-Single decision tree is like checking wine quality  according  to the content of citric acid. If it high then it will come to one of the branch of tree & if it is low then it will go to the another branch. Like good & bad quality branches. Random forest is nothing but the ensemble model of  combination of more than 2,3 decision trees to get the more accurate prediction. It will check the majority value or mean value of output given by decision trees to  predict the result. 
+A single decision tree is like checking wine quality  according  to the content of citric acid. If it is high then it will come to one of the branch of tree & if it is low then it will go to another branch. Like good & bad quality branches. Random forest is nothing but the ensemble model of  a combination of more than 2,3 decision trees to get a more accurate prediction. It will check the majority value or mean value of output given by decision trees to  predict the result. 
 <br>
 <br>
 More decision trees then more accurate will be the prediction.
 <br>
 <br>
-_Fit function_= Fit the values in the model-Random Forest Classifier .
+**Fit function**= Fit the values in the model-Random Forest Classifier .
 <br>
 <br>
-After checking accuracy of both train & test we need to check the implementation of the model with new data.
+After checking the accuracy of both the train & test we need to check the implementation of the model with new data.
 <br>
 <br>
 End of the project. Thank You !!!
