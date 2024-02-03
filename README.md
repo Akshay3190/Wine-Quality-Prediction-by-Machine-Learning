@@ -116,5 +116,10 @@ After checking the accuracy of both the train & test we need to check the implem
 End of the project. Thank You !!!
 <br>
 <br>
-<a href = "https://github.com/Akshay3190">My Project Portfolio </a>
+<a href = "https://github.com/Akshay3190">My Github Project Portfolio </a>
+<br>
+<br>
+<a href = "https://www.novypro.com/profile_projects/akshaykulkarni">My Novypro Project Portfolio </a>
+
+
 
